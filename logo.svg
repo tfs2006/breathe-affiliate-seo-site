@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218 48" width="218" height="48" role="img" aria-label="Breathe Wellness">
+  <title>Breathe Wellness</title>
+  <!-- Lung icon (white, transparent background for use on dark header) -->
+  <!-- Trachea -->
+  <rect x="16" y="5" width="3" height="9" rx="1.5" fill="white"/>
+  <!-- Left lung lobe -->
+  <path d="M17 13 C14 12 8 15 7.5 20 C7 25 9.5 34 13 35 L17 35 Z" fill="white" opacity="0.93"/>
+  <!-- Right lung lobe -->
+  <path d="M19 13 C22 12 28 15 28.5 20 C29 25 26.5 34 23 35 L19 35 Z" fill="white" opacity="0.93"/>
+  <!-- Brand name: Breathe -->
+  <text x="42" y="31" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" fill="white">Breathe</text>
+  <!-- Brand name: WELLNESS -->
+  <text x="43" y="44" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" fill="rgba(255,255,255,0.7)" letter-spacing="3.2">WELLNESS</text>
+</svg>

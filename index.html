@@ -19,7 +19,11 @@
     <meta property="og:url" content="https://breathe.4ourmedia.com/">
     <meta property="og:title" content="7 Best Respiratory Health Supplements 2026 &#8212; Expert Reviews &amp; Rankings">
     <meta property="og:description" content="Compare the 7 best respiratory supplements of 2026 &#8212; top mullein drops, ClearLungs, Breathe-X &amp; breathing programs. Expert ratings and honest comparisons.">
-    <meta property="og:image" content="https://breathe.4ourmedia.com/og-image.jpg">
+    <meta property="og:image" content="https://breathe.4ourmedia.com/og-image.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/svg+xml">
+    <meta property="og:image:alt" content="7 Best Respiratory Health Supplements 2026 &#8212; Breathe Wellness Expert Reviews">
     <meta property="og:site_name" content="Breathe Wellness">
     <meta property="og:locale" content="en_US">
 
@@ -27,10 +31,17 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="7 Best Respiratory Health Supplements 2026 &#8212; Expert Reviews">
     <meta name="twitter:description" content="Top 7 respiratory supplements reviewed: mullein drops, ClearLungs, Breathe-X + 2 breathing programs. Expert ratings &amp; honest comparisons.">
-    <meta name="twitter:image" content="https://breathe.4ourmedia.com/og-image.jpg">
+    <meta name="twitter:image" content="https://breathe.4ourmedia.com/og-image.svg">
+    <meta name="twitter:image:alt" content="7 Best Respiratory Health Supplements 2026 &#8212; Breathe Wellness Reviews">
 
     <!-- Preconnect -->
     <link rel="preconnect" href="https://amzn.to">
+
+    <!-- Icons & PWA -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#1a365d">
+    <meta name="msapplication-TileColor" content="#1a365d">
 
     <!-- Schema: WebSite -->
     <script type="application/ld+json">
@@ -121,14 +132,14 @@
         .skip-link { position: absolute; left: -999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
         .skip-link:focus { position: static; width: auto; height: auto; background: #1a365d; color: #fff; padding: 8px 16px; font-weight: bold; }
         header { background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%); color: #fff; padding: 1.2rem 1rem; text-align: center; }
-        header h1 { margin: 0 0 0.2rem; font-size: 1.55rem; font-weight: 800; }
+        header h1 { margin: 0 0 4px; line-height: 1; font-size: 0; }
         header p { margin: 0; font-size: 0.91rem; opacity: 0.87; }
         nav { background: #2b6cb0; padding: 0.55rem 0.5rem; text-align: center; position: sticky; top: 0; z-index: 999; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
         nav a { color: #fff; margin: 0 8px; text-decoration: none; font-size: 0.85rem; font-weight: 700; }
         nav a:hover { text-decoration: underline; color: #bee3f8; }
         nav a.nav-cta { background: #e53e3e; padding: 4px 12px; border-radius: 4px; }
         nav a.nav-cta:hover { background: #c53030; text-decoration: none; }
-        .hero { background: linear-gradient(135deg, #1a365d 0%, #553c9a 100%); color: #fff; padding: 54px 20px 48px; text-align: center; }
+        .hero { background: linear-gradient(135deg, #1a365d 0%, #553c9a 100%); color: #fff; padding: 54px 20px 64px; text-align: center; position: relative; overflow: hidden; }
         .hero h2 { font-size: 1.88rem; margin: 0 auto 0.65rem; font-weight: 800; line-height: 1.25; max-width: 800px; }
         .hero p { font-size: 1.05rem; margin: 0 auto 1.5rem; opacity: 0.92; max-width: 640px; }
         .hero-badges { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 22px; }
@@ -203,6 +214,11 @@
             .pros-cons { grid-template-columns: 1fr; }
             .product-header { flex-direction: column; }
         }
+        /* Logo & Hero SVG Graphics */
+        .site-logo-wrap { display: inline-block; text-decoration: none; vertical-align: middle; }
+        .hero-lung-deco { position: absolute; right: -15px; top: 50%; transform: translateY(-55%); pointer-events: none; }
+        .hero-wave { position: absolute; bottom: -1px; left: 0; width: 100%; }
+        @media (max-width: 700px) { .hero-lung-deco { display: none; } }
     </style>
 </head>
 <body>
@@ -210,7 +226,22 @@
 <a class="skip-link" href="#main">Skip to main content</a>
 
 <header>
-    <h1>Breathe Wellness</h1>
+    <h1>
+        <a class="site-logo-wrap" href="/" aria-label="Breathe Wellness &#8212; Home">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218 48" width="182" height="40" aria-hidden="true" focusable="false">
+                <!-- Trachea -->
+                <rect x="16" y="5" width="3" height="9" rx="1.5" fill="white"/>
+                <!-- Left lung lobe -->
+                <path d="M17 13 C14 12 8 15 7.5 20 C7 25 9.5 34 13 35 L17 35 Z" fill="white" opacity="0.93"/>
+                <!-- Right lung lobe -->
+                <path d="M19 13 C22 12 28 15 28.5 20 C29 25 26.5 34 23 35 L19 35 Z" fill="white" opacity="0.93"/>
+                <!-- Breathe -->
+                <text x="42" y="31" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="800" fill="white">Breathe</text>
+                <!-- WELLNESS -->
+                <text x="43" y="44" font-family="Arial,Helvetica,sans-serif" font-size="10.5" font-weight="400" fill="rgba(255,255,255,0.7)" letter-spacing="3.2">WELLNESS</text>
+            </svg>
+        </a>
+    </h1>
     <p>Expert Reviews of the Best Respiratory Health Supplements &amp; Breathing Programs</p>
 </header>
 
@@ -224,6 +255,12 @@
 </nav>
 
 <div class="hero">
+    <!-- Decorative lung illustration (right side, low opacity) -->
+    <svg class="hero-lung-deco" viewBox="0 0 200 230" width="200" height="230" aria-hidden="true" focusable="false">
+        <rect x="93" y="5" width="14" height="35" rx="7" fill="white" opacity="0.9"/>
+        <path d="M94 37 C74 31 40 53 36 90 C32 130 53 196 73 202 L94 202 Z" fill="white" opacity="0.9"/>
+        <path d="M106 37 C126 31 160 53 164 90 C168 130 147 196 127 202 L106 202 Z" fill="white" opacity="0.9"/>
+    </svg>
     <div class="hero-badges">
         <span class="hero-badge">&#127807; 7 Supplements Reviewed</span>
         <span class="hero-badge">&#127894; 2 Breathing Programs</span>
@@ -233,6 +270,10 @@
     <h2>7 Best Respiratory Health Supplements of 2026 (+ 2 Top Breathing Programs)</h2>
     <p>We researched and ranked the top natural lung health supplements available today &#8212; from mullein drops and herbal formulas to digital breathing programs for sleep and performance.</p>
     <a class="cta-button cta-red" href="#top-picks">&#9660; See All Top Picks</a>
+    <!-- Wave transition to white content area -->
+    <svg class="hero-wave" viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <path d="M0 60 L0 38 Q360 12 720 38 Q1080 64 1440 38 L1440 60 Z" fill="white"/>
+    </svg>
 </div>
 
 <main id="main">
