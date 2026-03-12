@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block any admin or private paths (none currently)
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+
+# Sitemap location
+Sitemap: https://breathe.4ourmedia.com/sitemap.xml
